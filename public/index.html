@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- ovako se setapuje komunikacija na klijentskoj strani. Nas js sada ima pristup da omoguci komunikaciju na klijentskoj strani -->
+<head>
+  <title>Chat App</title>
+  <!--Ovo se sada navodi kao /img/favicon jer je publicDirectoryPath setapovan za staticke fajlove na ovu lokaciju(u public folderu)-->
+  <link rel="icon" href="/img/favicon.png" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="centered-form">
+    <div class="centered-form__box">
+      <h1>Join</h1>
+      <form action="/chat.html">
+        <label>Display name</label>
+        <input type="text" name="username" placeholder="Display name" required>
+        <label>Room</label>
+        <input type="text" name="room" placeholder="Room" required>
+        <button>Join</button>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+
